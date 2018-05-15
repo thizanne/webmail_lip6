@@ -7,9 +7,5 @@
 // @version     0.1
 // ==/UserScript==
 
-function setApr () {
-    var teamList = document.getElementById("imp_server_key");
-    teamList.value = "imapapr";
-}
-
-document.addEventListener('DOMContentLoaded', setApr, false);
+var teamList = document.getElementById("imp_server_key");
+teamList.value = "imapapr";
