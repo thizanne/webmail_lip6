@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Webmail LIP6
+// @name        Webmail LIP6 - APR
 // @namespace   https://github.com/thizanne/webmail_lip6
 // @description Choisit automatiquement l'équipe APR dans le webmail LIP6
 // @author      Thibault Suzanne
@@ -7,4 +7,5 @@
 // @version     0.1
 // ==/UserScript==
 
-alert("lol");
+var teamList = document.getElementById("imp_server_key");
+teamList.value = "imapapr";
